@@ -85,7 +85,7 @@ def plot_series(data, initial_date, proy):
         hovermode="x"
     )
     #fig = px.line(data2, x='local_timestamp', y="Demanda total [MW]", markers=True, labels={"local_timestamp": "Fecha"})
-    fig.update_layout(paper_bgcolor='rgba(0,0,0,0)', plot_bgcolor='rgba(0,0,0,0)', font_color="#2cfec1")
+    fig.update_layout(paper_bgcolor='rgba(0,0,0,0)', plot_bgcolor='rgba(0,0,1,0)', font_color="#2cfec1")
     fig.update_xaxes(showgrid=True, gridwidth=0.25, gridcolor='#7C7C7C')
     fig.update_yaxes(showgrid=True, gridwidth=0.25, gridcolor='#7C7C7C')
     #fig.update_traces(line_color='#2cfec1')
